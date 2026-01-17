@@ -204,14 +204,6 @@
 	url = https://github.com/qt/qtwebchannel.git
 	branch = 5.15.1
 	status = addon
-[submodule "qtwebengine"]
-	depends = qtdeclarative
-	recommends = qtquickcontrols qtquickcontrols2 qtlocation qtwebchannel qttools
-	path = qtwebengine
-	url = https://github.com/qt/qtwebengine.git
-	branch = 5.15.1
-	status = addon
-	priority = 10
 [submodule "qtcanvas3d"]
 	depends = qtdeclarative
 	path = qtcanvas3d
